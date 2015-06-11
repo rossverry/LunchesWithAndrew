@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LunchSuite {
 
 	private final String baseUrl = "https://www.google.com/";
-	WebDriver driver = null;
+	private WebDriver driver = null;
 
 
 	@BeforeClass
